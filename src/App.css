@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.App {
+  width: min-content;
+  margin: auto;
+  padding: 16px;
+}
+/* Adding Responsiveness */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+
+  .App {
+    width: min-content;
+    margin: auto;
+    padding: 16px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+
+  .App {
+    width: min-content;
+    margin: auto;
+    padding: 16px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+
+  .App {
+    width: min-content;
+    margin: auto;
+    padding: 16px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+
+  .App {
+    width: min-content;
+    margin: auto;
+    padding: 16px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+
+  .App {
+    width: min-content;
+    margin: auto;
+    padding: 16px;
+  }
+}
+
+/* ***************Display*************** */
+.displayApp {
+  font-size: 160px;
+}
+
+.displayApp > .milisec {
+  font-size: 48px;
+}
+hr {
+  width: 100%;
+  margin: 64px 0 16px 0;
+}
+
+/* ***************Buttons*************** */
+button {
+  height: 96px;
+  width: 96px;
+  color: white;
+  margin: 0px 8px;
+  border: none;
+  font-size: 19.2px;
+  border-radius: 50%;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button.start {
+  background-color: #18a69d;
+}
+
+button.pause {
+  background-color: #fb657f;
+}
+
+button.split {
+  background-color: #f29e26;
+}
+
+button.reset {
+  background-color: #4487d0;
+}
+
+button:disabled {
+  background-color: white;
+  color: #b7b8b9;
+  border: 1px solid;
+  border-color: #b7b8b9;
+}
+
+/* ***************SplitTime*************** */
+.split-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.itemSplit {
+  display: flex;
+  color: #b7b8b9;
+  padding: 8px 0;
+  font-size: 25.6px;
+}
+
+.itemSplit > div {
+  flex: 1 1 0;
+}
+
+.Csplit {
+  color: #f29e26;
+  font-size: 32px;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+.itemSplit > :first-child {
+  flex: 0 0 128px;
+  color: #696464;
+}
+
+.itemSplit > :nth-child(2) {
+  flex: 3 1 0;
+}
+
+.itemSplit > .pause {
+  color: #fb657f;
+}
+
+.itemSplit > .split {
+  color: #f29e26;
+}
